@@ -1,0 +1,9 @@
+{
+    "name": "WS-Discovery & ONVIF client",
+    // Dockerファイルでイメージ・コンテナを作成する
+    "dockerFile": "Dockerfile",
+    // リモート先のVS Codeにインストールする拡張機能
+    "extensions": [
+        "ms-python.python"
+    ]
+}
