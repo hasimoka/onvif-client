@@ -5,5 +5,8 @@
     // リモート先のVS Codeにインストールする拡張機能
     "extensions": [
         "ms-python.python"
+    ],
+    "runArgs": [
+        "--network=host"
     ]
 }
