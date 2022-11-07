@@ -7,6 +7,6 @@
         "ms-python.python"
     ],
     "runArgs": [
-        "--network=host"
+        "--network=onvif_net"
     ]
 }

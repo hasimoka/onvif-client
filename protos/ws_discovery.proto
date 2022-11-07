@@ -1,0 +1,14 @@
+// バージョン指定
+syntax = "proto3";
+
+// パッケージ定義
+package wsdiscovery;
+
+service WsDiscoveryService {
+    rpc GetNvtList (GetNvtListRequest)  returns (GetNvtListResponse);
+} 
+
+message GetNvtListRequest {}
+message GetNvtListResponse {
+    repeated string nvt_address = 1;
+}
